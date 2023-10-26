@@ -1,0 +1,123 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Your Page Title</title>
+    <link rel="stylesheet" href='{% static "home.css"%}'>
+
+</head>
+<body style="background-image: url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&q=80&w=1770&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');"></body>
+
+
+<div class="banner">
+    <div class="navbar">
+      
+      <ul>  
+        <div style="white-space: nowrap;">
+        <li><a  href="homescreen">home screen</a></li>
+        <li><a  href="mappingscreen">mapping screen</a></li>
+        <li><a  href="sqlscrappingmapping">sql scrapping mapping</a></li>
+        <li><a  href="lineagepushscreen">lineage push screen</a></li>
+        <li><img src="https://eviden.com/wp-content/uploads/2023/04/logo-aab-v265.png" style='float:right; width: 150px; background-color: white;' ></li>
+      
+      </ul>
+      
+  
+  </div>
+<body>
+   
+   
+                            <style>
+                               
+                                body {
+                                    font-family: Segoe UI;
+                                    text-align: center;
+                                }
+                        
+                                .container {
+                                    max-width: 600px;
+                                    margin: 0 auto;
+                                    padding: 20px;
+                                }
+                        
+                                .welcome-message {
+                                    font-size: 24px;
+                                    margin-bottom: 20px;
+                                }
+                        
+                                .button {
+                                    background-color: #04AA6D;
+                                    border: none;
+                                    color: white;
+                                    padding: 20px;
+                                    text-align: center;
+                                    text-decoration: none;
+                                    display: inline-block;
+                                    font-size: 16px;
+                                    margin: 4px 2px;
+                                  }
+                                  .button2 {border-radius: 4px;}
+                                input[type="text"], input[type="radio"] {
+                                    margin: 5px;
+                                } 
+
+                                
+                            </style> 
+
+
+    
+
+   
+
+                            
+         <hr style='color:white'>               
+</body> 
+
+
+   <div class="">
+    <table class="table">
+       
+        <tbody>
+          <tr>
+            <td><input type="checkbox"> Source1</td>
+            <td> </td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><input type="checkbox"> Source2</td>
+            <td>Target A</td>
+            <td>Lineage Name</td>
+            <td><button class="btn btn-danger">Delete</button></td>
+          </tr>
+          <tr>
+            <td><input type="checkbox"> Source3</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><input type="checkbox"> Source1</td>
+            <td>Target A </td>
+            <td>Lineage Name</td>
+            <td><button class="btn btn-danger">Delete</button></td>
+          </tr>
+          <tr>
+            <td><input type="checkbox"> Source2</td>
+            <td> </td>
+            <td></td>
+            <td></td>
+          </tr>
+         
+          
+          
+        </tbody>
+      </table>
+
+
+
+   </div>
+   <button id="pushToPurviewButton" class="blue-button btn btn-success">Push to Purview</button>
+</body>
+</html>

@@ -1,0 +1,14 @@
+/* Define a CSS class to style the "Push to Purview" button */
+.blue-button {
+    background-color: #0074D9; /* Blue color (you can use your preferred shade of blue) */
+    color: #FFFFFF; /* White text color */
+    padding: 10px 20px; /* Add padding for better button appearance */
+    border: none; /* Remove the default button border */
+    cursor: pointer; /* Change the cursor to a pointer on hover */
+    border-radius: 5px; /* Add rounded corners for a modern look */
+}
+
+/* Define a hover effect to change button color on hover */
+.blue-button:hover {
+    background-color: #0056A9; /* A slightly darker shade of blue on hover */
+}

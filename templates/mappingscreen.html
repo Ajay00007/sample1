@@ -1,0 +1,171 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Page Title</title>
+    <link rel="stylesheet" href='{% static "home.css"%}'>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body style="background-image: url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&q=80&w=1770&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');">
+</body>
+
+<div class="banner">
+  <div class="navbar">
+    
+    
+    <ul>  
+      <div style="white-space: nowrap;">
+      <li><a  href="homescreen">home screen</a></li>
+      <li><a  href="mappingscreen">mapping screen</a></li>
+      <li><a  href="sqlscrappingmapping">sql scrapping mapping</a></li>
+      <li><a  href="lineagepushscreen">lineage push screen</a></li>
+      <li><img src="https://eviden.com/wp-content/uploads/2023/04/logo-aab-v265.png" style='float:right; width: 150px; background-color:white;' ></li>
+    
+    </ul>
+    
+
+</div>
+<hr>
+    <style>
+        Add some basic CSS styling for buttons and layout */
+        body {
+            font-family: Segoe UI;
+        }
+        body {
+            text-align: center;
+       }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .welcome-message {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .button {
+            background-color: #04AA6D;
+            border: none;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+          }
+          .button2 {border-radius: 4px;}
+        input[type="text"], input[type="radio"] {
+            margin: 5px;
+        }
+    </style>
+</head>
+
+
+
+
+<div class="row">
+    <div class="col-md-5">
+      <table class="table">
+        <thead>
+          <tr class="text-center">
+            <th scope="col" ><h3 style="background-color: green;">Target</h3></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><button id="addTargetButton" class="btn btn-primary
+                ">Add Targets +</button></td>
+          </tr>
+          <tr>
+            <td><input type="text" id="searchField" placeholder="search" class="form-control">
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <table class="table">
+        <tr>
+            <td><input type="checkbox" >Table A</td>
+            <td>Any existing league</td>
+            <td><input type="radio">yes</td>
+            <td><input type="radio">no</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" >Table B</td>
+            <td>Any existing league</td>
+            <td><input type="radio">yes</td>
+            <td><input type="radio">no</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" >Table C</td>
+            <td>Any existing league</td>
+            <td><input type="radio">yes</td>
+            <td><input type="radio">no</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" >Table D</td>
+            <td>Any existing league</td>
+            <td><input type="radio">yes</td>
+            <td><input type="radio">no</td>
+          </tr>
+      </table>
+    </div>
+<div class="col-md-1"></div>
+    <div class="col-md-5">
+      <table class="table">
+        <thead>
+          <tr class="text-center">
+            <th scope="col" ><h3 style="background-color: yellow;">Source</h3></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><button id="addTargetButton" class="btn btn-primary
+                ">Add sources +</button></td>
+          </tr>
+          <tr>
+            <td><input type="text" id="searchField" placeholder="search" class="form-control">
+            </td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" >Table A</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" >Table B</td>
+          </tr>
+          <tr>
+            <td><button class="btn btn-primary">Add Sources +</button></td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" >Table A</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" >Table B</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" >Table c</td>
+          </tr>
+        </tbody>
+      </table>
+        <!-- Target -->
+        
+            
+        </div>
+
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-8"></div>
+    <div class="col-md-4"><button class="btn btn-secondary" type="submit" style="float: right;">Save</button>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-8"></div>
+    <div class="col-md-4"><button class="btn btn-success mt-2" type="submit" style="float: right;">Save & submit</button>
+    </div>
+</div>
+</body>
+</html>
